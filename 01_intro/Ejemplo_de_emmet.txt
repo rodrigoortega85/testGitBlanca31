@@ -1,0 +1,14 @@
+<!--!emmet es una herramienta para autocompletar la estrcutura basica de un html-->
+
+<!DOCTYPE html>
+<!--html lang es el idioma del sitio web, en este caso es español: es-->
+<html lang="es">
+<head>
+    <!--meta charset sirve para cargar los signos del español, como acentos, ñ, etc, esto permite que la tilde de título aparezca-->
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hola soy el título principal</h1>
+</body>
+</html>

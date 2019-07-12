@@ -1,0 +1,64 @@
+body {
+    border: solid 1 px green;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url("");
+    background-size: cover;
+    background-position: center center;
+    /* center center es posicion x y  */
+}
+
+.input-container{
+    width: 50%;
+    border:solid 1px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container > label {
+    margin-top: 20px;
+}
+
+.input-container > input {
+    width: 250px;
+    margin-top: 20px;
+    color: #fff;
+    border: solid 1px black;
+    background: black;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+
+.input-container > input::placeholder {
+    color: #fff;
+    padding-left: 15px;
+}
+
+.input-container > button {
+    margin-top: 20px;
+    border: solid 1px white;
+    background-color: #000;
+    color: #fff;
+}
+
+.input-container > button:hover{
+    background-color: #fff;
+    color: #000;
+    border: solid 1px black;
+}
+
+.card-container{
+    width: 50%;
+    border: solid 1px yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 10, 10, 0.5)
+}
+
+.desaparecer{
+    display: none;
+}

@@ -1,0 +1,21 @@
+header {
+    border: solid 1px red;
+    width: 100%;
+    height 60px;
+}
+
+nav {
+    border: solid 1 px green;
+    width: 100%;
+    height: 100%;
+}
+
+.class-container > a{
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    border: solid 1 px green;
+}
+

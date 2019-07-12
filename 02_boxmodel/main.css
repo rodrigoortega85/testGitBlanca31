@@ -1,0 +1,49 @@
+/* Las etiquetas de header poseen por defecto un display llamado block*/
+
+h1 {
+    border: solid 1px green;
+    /* width: 50%; */
+    display: inline-block;
+    padding: 15px;
+    background: black;
+    color: #ffffff;
+    margin-right: 30px;
+}
+
+h2 {
+    border: solid 1px yellow;
+    display: inline-block;
+    background: orange;
+    height: 4em;
+    width: 200px;
+    margin: 0 30px 5px 10px; 
+    /*Esta es otra forma de declarar los margenes, top tendra 0, right 30px, bottom 5px y left 10px*/
+}
+
+p {
+    border: solid 1px purple;
+}
+
+/* El display utilizado en la etiqueta a es llamado inline */
+/* Display block puede modificar su alto y ancho y no puede poner mas cosas a su lado, mientras que Inline no modifica su tamaño pero se pueden poner cosas a su lado*/
+/* El display inline-block combina ambas propiedades*/
+
+a {
+    border: solid 1px brown;
+}
+
+.seccion1 {
+    border: solid 1px red;
+    width: 50%;
+    height: 300px;
+}
+
+.seccion2 {
+    width: 50%;
+    height: 350px;
+    border: solid 1px blue;
+}
+
+.seccion3 {
+    border: solid 1px orange;
+}
